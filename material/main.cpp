@@ -9,6 +9,8 @@ using namespace std;
 
 
 void menu (Mobilitat &mob, int opcio){
+    //pre: mob existeix i opcio es valida
+    //post: es desplega el menu i es realitzen les instruccions instroduides amb opcio
 
     switch(opcio){
 
