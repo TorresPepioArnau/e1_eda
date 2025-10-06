@@ -153,13 +153,13 @@ void menu (){
             cout << "* 04: Més ràpid *" << endl;
             cout << setfill('*') <<setw(20)<< endl;
 
-            cout<<"Menys de 500 metres : "<<v.at(1).first<<" => " <<v.at(1).second<<endl;
-            cout<<"De 500 a 2.000 metres : "<<v.at(2).first <<" => "<<v.at(2).second<<endl;
-            cout<<"De 2.000 a 5.000 metres : "<<v.at(3).first <<" => "<<v.at(3).second<<endl;
-            cout<<"De 5.000 a 10.000 metres : "<<v.at(4).first <<" => "<<v.at(4).second<<endl;
-            cout<<"De 10.000 a 50.000 metres : "<<v.at(5).first <<" =>"<<v.at(5).second<<endl;
-            cout<<"De 50.000 a 100.000 metres : "<<v.at(6).first <<" => "<<v.at(6).second<<endl;
-            cout<<"Més de 100.000 metres : "<<v.at(7).first <<" => "<<v.at(7).second<<endl;
+            cout<<"Menys de 500 metres : "<<v.at(0).first<<" => " <<v.at(0).second<<endl;
+            cout<<"De 500 a 2.000 metres : "<<v.at(1).first <<" => "<<v.at(1).second<<endl;
+            cout<<"De 2.000 a 5.000 metres : "<<v.at(2).first <<" => "<<v.at(2).second<<endl;
+            cout<<"De 5.000 a 10.000 metres : "<<v.at(3).first <<" => "<<v.at(3).second<<endl;
+            cout<<"De 10.000 a 50.000 metres : "<<v.at(4).first <<" =>"<<v.at(4).second<<endl;
+            cout<<"De 50.000 a 100.000 metres : "<<v.at(5).first <<" => "<<v.at(5).second<<endl;
+            cout<<"Més de 100.000 metres : "<<v.at(6).first <<" => "<<v.at(6).second<<endl;
 
        default:
             cout << "*  Opcio invalida  *" << endl;
